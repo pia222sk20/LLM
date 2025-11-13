@@ -16,7 +16,7 @@ Encoder는 입력 시퀀스를 내부 상태로 변환하는 모듈, Decoder는 
 
 Encoder 단계:
 
-입력 토큰 x₁, x₂, …, x_T
+입력 토큰 $x₁, x₂, …, x_T$
 
 순환구조(RNN/LSTM/GRU)가 $h_t = f(x_t, h_{t-1})$ 계산
 
